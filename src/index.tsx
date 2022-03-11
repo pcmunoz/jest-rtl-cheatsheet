@@ -5,6 +5,7 @@ import './index.css';
 
 const container = document.getElementById('root');
 
+// * Workaround as React 18 is still alpha
 if (!container) throw new Error('Failed to find the root element.')
 
 // Create a root.
