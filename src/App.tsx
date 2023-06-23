@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css';
+import { Box } from "@chakra-ui/react";
+import CounterAppOne from "./components/CounterAppOne";
 
-function App() {
-  return (
-    <div className="App">
-        <h1>
-          Jest-React Testing Library cheat sheet
-        </h1>
-    </div>
-  );
-}
+const App = () => (
+	<Box margin="1.2rem">
+		<Box>APP-1</Box>
+		<Box>
+			<CounterAppOne />
+		</Box>
+	</Box>
+);
 
 export default App;
